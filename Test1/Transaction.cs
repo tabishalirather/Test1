@@ -6,7 +6,7 @@ public class Transaction : Thing
     // private string _name;
     private decimal _amount;
     
-    public  Transaction(string number, string name, decimal amount) : base( name, number)
+    public  Transaction(string number, string name, decimal amount) : base( number, name)
     {
         _number = number;
         _name = name;

@@ -21,7 +21,6 @@ public class Sales
         foreach (Thing order in _orders)
         {
             order.Print();
-            Console.WriteLine($"Total: {order.Total()}");
         }
     }
     
